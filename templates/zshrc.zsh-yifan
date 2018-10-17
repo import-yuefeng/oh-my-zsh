@@ -1,0 +1,12 @@
+export ZSH=$HOME/.oh-my-zsh
+export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin"
+source ~/.userrc
+ZSH_THEME="yifan"
+export UPDATE_ZSH_DAYS=7
+COMPLETION_WAITING_DOTS="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+plugins=(${plugins_custom[*]} powerline-shell iterm2 git sudo tmux safe-rm keybind package-manager z net-config history history-substring-search zsh_reload copyfile copydir docker docker-compose zsh-completions zsh-autosuggestions ip alias number-keypad zsh-syntax-highlighting zsh-prioritize-cwd-history)
+
+source $ZSH/oh-my-zsh.sh
+HISTSIZE=10000000
+SAVEHIST=10000000
