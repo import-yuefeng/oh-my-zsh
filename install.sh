@@ -4,7 +4,7 @@ git clone https://github.com/import-yuefeng/fonts.git ~/fonts
 
 cd ~/fonts && ./install.sh
 
-cd ~/ && echo export LC_POWERLINE_FONT=true > .userrc
+cd ~/ && echo "export LC_POWERLINE_FONT=true; export ZSH=~;" > .userrc
 
 rm -rf .oh-my-zsh && cp -r oh-my-zsh .oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-yuefeng ~/.zshrc
