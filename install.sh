@@ -12,5 +12,3 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-yuefeng ~/.zshrc
 chsh -s /bin/zsh
 
 source ~/.zshrc
-
-zsh
