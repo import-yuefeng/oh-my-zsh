@@ -7,6 +7,7 @@ cd ~/fonts && ./install.sh
 cd ~/ && echo export LC_POWERLINE_FONT=true > .userrc
 
 rm -rf .oh-my-zsh && cp -r oh-my-zsh .oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-yuefeng ~/.zshrc
 
 chsh -s /bin/zsh
 
